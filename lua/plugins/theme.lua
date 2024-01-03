@@ -1,9 +1,11 @@
 return {
-  { "rebelot/kanagawa.nvim" },
+  { "navarasu/onedark.nvim", opts = {
+    style = "darker",
+  } },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-wave",
+      colorscheme = "onedark",
     },
   },
 }
