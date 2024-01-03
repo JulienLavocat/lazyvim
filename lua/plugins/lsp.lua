@@ -26,7 +26,4 @@ return {
       },
     },
   },
-
-  -- for typescript, LazyVim also includes extra specs to properly setup lspconfig, treesitter, mason and typescript.nvim.
-  { import = "lazyvim.plugins.extras.lang.typescript" },
 }
