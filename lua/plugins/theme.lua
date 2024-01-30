@@ -1,11 +1,11 @@
 return {
-  { "navarasu/onedark.nvim", opts = {
-    style = "darker",
+  { "wittyjudge/gruvbox-material.nvim", opts = {
+    style = "dark",
   } },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark",
+      colorscheme = "gruvbox-material",
     },
   },
 }
