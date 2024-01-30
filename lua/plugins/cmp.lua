@@ -2,6 +2,7 @@ return {
   {
     "hrsh7th/nvim-cmp",
     dependencies = {
+      "L3MON4D3/LuaSnip",
       "hrsh7th/cmp-emoji",
       "hrsh7th/cmp-nvim-lsp",
       "hrsh7th/cmp-buffer",
@@ -18,6 +19,7 @@ return {
       local defaults = require("cmp.config.default")()
 
       return {
+        snippet = opts.snippet,
         completion = {
           completeopt = "menu,menuone,noinsert",
         },
