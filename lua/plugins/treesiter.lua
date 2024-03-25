@@ -56,7 +56,6 @@ return {
           "scss",
           "sql",
           "terraform",
-          "tmux",
           "typescript",
           "vim",
           "vimdoc",
